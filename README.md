@@ -35,8 +35,11 @@ BFS 逐层扩展求最短路：
 由于迷宫是「完美迷宫」，任意两格之间只有一条通路，因此 BFS 找到的路径即为唯一解，同时也是最短解。
 
 ## 目录结构
-src/main/java/com/maze/
-├── MazeApp.java 程序入口与 Swing 窗口
-├── MazeGenerator.java 迷宫生成（递归回溯）
-├── MazeSolver.java 路径求解（BFS）
-└── MazePanel.java 界面绘制与交互
+
+`src/main/java/com/maze/` 下共四个类：
+
+- **MazeApp.java** —— 程序入口与 Swing 窗口
+- **MazeGenerator.java** —— 迷宫生成（递归回溯）
+- **MazeSolver.java** —— 路径求解（BFS）
+- **MazePanel.java** —— 界面绘制与交互
+
